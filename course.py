@@ -2,17 +2,9 @@
 
 class Course:
 
-    def __init__(self, course_id, course_name, course_credit_hours):
-        self.__course_id = course_id
-        self.course_name = course_name
-        self.course_credit_hours = course_credit_hours
+    def __init__(self, course_id, title, credit_hour, professor):
 
-        
-    def set_course_id(self, course_id):
-        self.__course_id = course_id
-
-
-    def get_course_id(self):
-        return self.__course_id
-
-        
+        self.course_id = course_id
+        self.title = title
+        self.credit_hours = credit_hour
+        self.professor = professor

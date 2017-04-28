@@ -64,4 +64,4 @@ class Gradebook:
 
 db = SchoolDB(SchoolInitializer())
 gradebook = Gradebook(db)
-gradebook.main() 
+gradebook.main()
